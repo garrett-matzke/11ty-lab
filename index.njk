@@ -1,0 +1,17 @@
+---
+layout: layout.liquid
+title: Everyday Carry — 3 things I won't leave home without
+---
+
+<h1>Three things I won't leave home without</h1>
+<p class="lede">A short list of the essentials I carry daily. Click any card to see full details and why I can't leave without it.</p>
+
+{% from "shortcodes/itemCard.njk" import itemCard %}
+
+<section class="grid">
+  {{ itemCard("Apple Watch", "/items/apple-watch/", "/images/apple-watch.svg", "A connected smartwatch that still functions as a quick glanceable timepiece and health tracker.") }}
+  {{ itemCard("Slim Wallet", "/items/wallet/", "/images/wallet.svg", "Compact wallet for cards and a little cash; security + simplicity.") }}
+  {{ itemCard("iPhone", "/items/iphone/", "/images/iphone.svg", "My smartphone — the central hub for communication, photos, maps, and quick notes.") }}
+</section>
+
+<p class="note">Replace the placeholder SVGs in <code>/images</code> with your original photos (phone or camera) and keep the filenames, or update the image paths in the item pages.</p>

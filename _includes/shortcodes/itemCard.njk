@@ -1,0 +1,13 @@
+{% macro itemCard(title, url, img, excerpt) %}
+<article class="item-card">
+  <a class="item-link" href="{{ url }}">
+    <div class="item-media">
+      <img src="{{ img }}" alt="{{ title }}">
+    </div>
+    <div class="item-body">
+      <h2 class="item-title">{{ title }}</h2>
+      <p class="item-excerpt">{{ excerpt }}</p>
+    </div>
+  </a>
+</article>
+{% endmacro %}
