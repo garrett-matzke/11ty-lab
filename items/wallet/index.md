@@ -9,12 +9,12 @@ permalink: /items/wallet/
     <picture>
       <source srcset="/images/wallet.jpg" type="image/jpeg">
       <source srcset="/images/wallet.png" type="image/png">
-      <img src="/images/wallet.svg" alt="Slim wallet with cards" class="detail-image" loading="lazy">
+      <img src="/images/wallet.svg" alt="Apple wallet with cards" class="detail-image" loading="lazy">
     </picture>
     <figcaption>Placeholder image — replace with your original photo (jpg/png preferred).</figcaption>
   </figure>
 
-  <h1>Slim Wallet</h1>
+  <h1>Apple Wallet</h1>
   <p class="lead">A magnetic wallet made by Apple.</p>
 
   <h2>Why I can't leave home without it</h2>
