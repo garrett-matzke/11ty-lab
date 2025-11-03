@@ -5,7 +5,7 @@ permalink: /items/apple-wallet/
 
 <article class="item-detail">
   <figure>
-    {% image "/images/wallet.jpg", "Apple Wallet with cards", "(max-width: 600px) 100vw, 600px" %}
+    {% image "/images/wallet.jpg", "Apple Wallet with cards", "(max-width: 600px) 100vw, 600px", "detail-image small" %}
     <figcaption>Apple Wallet photo.</figcaption>
   </figure>
 

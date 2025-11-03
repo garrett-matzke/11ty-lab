@@ -41,13 +41,14 @@ module.exports = async function(eleventyConfig) {
   try {
     await generateFor('/images/apple-watch.jpg');
     await generateFor('/images/wallet.jpg');
+    await generateFor('/images/iphone.jpg');
   } catch (e) {
     // If generation fails at config time, log it and continue; templates will still use original images.
     console.warn('eleventy-img generation warning:', e.message);
   }
 
   // Sync shortcode that reads pre-generated metadata and returns picture markup (works in Liquid/Nunjucks)
-  function imageShortcodeSync(src, alt = "", sizes = "100vw") {
+  function imageShortcodeSync(src, alt = "", sizes = "100vw", className = "") {
     if (!alt) {
       throw new Error(`Missing \"alt\" attribute for image ${src}`);
     }
@@ -62,10 +63,11 @@ module.exports = async function(eleventyConfig) {
     const jpeg = metadata['jpeg'];
     const fallbackSrc = jpeg[jpeg.length - 1].url;
 
+    const cls = className ? ` class=\"${className}\"` : "";
     return `<picture>
       <source type=\"image/webp\" srcset=\"${toSrcset(webp)}\" sizes=\"${sizes}\">\n
       <source type=\"image/jpeg\" srcset=\"${toSrcset(jpeg)}\" sizes=\"${sizes}\">\n
-      <img src=\"${fallbackSrc}\" alt=\"${alt}\" loading=\"lazy\" decoding=\"async\">\n
+      <img src=\"${fallbackSrc}\" alt=\"${alt}\"${cls} loading=\"lazy\" decoding=\"async\">\n
     </picture>`;
   }
 
