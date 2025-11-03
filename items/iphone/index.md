@@ -9,7 +9,7 @@ permalink: /items/iphone/
 		<picture>
 			<source srcset="/images/iphone.jpg" type="image/jpeg">
 			<source srcset="/images/iphone.png" type="image/png">
-			<img src="/images/iphone.svg" alt="iPhone face showing home screen" class="detail-image" loading="lazy">
+			<img src="/images/iphone.svg" alt="iPhone face showing home screen" class="detail-image small" loading="lazy">
 		</picture>
 		<figcaption>Placeholder image — replace with your original photo (jpg/png preferred).</figcaption>
 	</figure>

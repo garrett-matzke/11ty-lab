@@ -175,6 +175,7 @@ h1{ font-size:2rem; margin:8px 0 6px; }
 /* Detail page */
 .item-detail{ background:rgba(255,255,255,0.01); padding:18px; border-radius:12px; }
 .detail-image{ width:100%; max-width:420px; height:auto; border-radius:8px; display:block; margin-bottom:12px; }
+.detail-image.small{ max-width:300px; }
 .lead{ color:var(--muted); }
 
 /* Footer */

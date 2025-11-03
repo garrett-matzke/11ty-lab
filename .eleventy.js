@@ -40,6 +40,7 @@ module.exports = async function(eleventyConfig) {
   // Generate for the apple-watch image which we just added. You can expand this list later.
   try {
     await generateFor('/images/apple-watch.jpg');
+    await generateFor('/images/wallet.jpg');
   } catch (e) {
     // If generation fails at config time, log it and continue; templates will still use original images.
     console.warn('eleventy-img generation warning:', e.message);
