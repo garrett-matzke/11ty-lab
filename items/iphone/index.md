@@ -14,6 +14,7 @@ permalink: /items/iphone/
 		<figcaption>Placeholder image — replace with your original photo (jpg/png preferred).</figcaption>
 	</figure>
 
+
 	<h1>iPhone</h1>
 	<p class="lead">A smartphone made by Apple that is essential to my everyday life.</p>
 
