@@ -10,7 +10,9 @@
     </div>
     <div class="item-body">
       <h2 class="item-title">{{ title }}</h2>
+      {% if excerpt and excerpt | trim %}
       <p class="item-excerpt">{{ excerpt }}</p>
+      {% endif %}
     </div>
   </a>
 </article>
