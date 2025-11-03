@@ -6,7 +6,7 @@ permalink: /items/iphone/
 
 <article class="item-detail">
 	<figure>
-		{% image "/images/iphone.jpg", "iPhone face showing home screen", "(max-width: 600px) 100vw, 600px", "detail-image small" %}
+		<img src="/images/iphone.svg" alt="iPhone SVG" class="detail-image small" loading="lazy">
 	</figure>
 
 

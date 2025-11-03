@@ -6,7 +6,7 @@ permalink: /items/apple-watch/
 
 <article class="item-detail">
 	<figure>
-		{% image "/images/apple-watch.jpg", "Apple Watch on a wrist", "(max-width: 600px) 100vw, 600px" %}
+		<img src="/images/apple-watch.svg" alt="Apple Watch SVG" class="detail-image small" loading="lazy">
 		<figcaption>Apple Watch photo.</figcaption>
 	</figure>
 

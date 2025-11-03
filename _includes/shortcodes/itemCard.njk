@@ -2,7 +2,7 @@
 <article class="item-card">
   <a class="item-link" href="{{ url }}">
     <div class="item-media">
-      {% image imgBase ~ ".jpg", title, "(max-width: 700px) 45vw, 300px" %}
+        <img src="{{ imgBase }}.svg" alt="{{ title }} SVG" class="item-card-image" loading="lazy">
     </div>
     <div class="item-body">
       <h2 class="item-title">{{ title }}</h2>
