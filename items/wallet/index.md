@@ -1,6 +1,7 @@
+---
 layout: layout.liquid
 title: Apple Wallet
-permalink: /items/wallet/
+permalink: /items/apple-wallet/
 ---
 
 <article class="item-detail">
