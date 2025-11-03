@@ -1,8 +1,12 @@
-{% macro itemCard(title, url, img, excerpt) %}
+{% macro itemCard(title, url, imgBase, excerpt) %}
 <article class="item-card">
   <a class="item-link" href="{{ url }}">
     <div class="item-media">
-      <img src="{{ img }}" alt="{{ title }}">
+      <picture>
+        <source srcset="{{ imgBase }}.jpg" type="image/jpeg">
+        <source srcset="{{ imgBase }}.png" type="image/png">
+        <img src="{{ imgBase }}.svg" alt="{{ title }}" loading="lazy">
+      </picture>
     </div>
     <div class="item-body">
       <h2 class="item-title">{{ title }}</h2>
