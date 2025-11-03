@@ -7,9 +7,9 @@ permalink: /items/wallet/
 <article class="item-detail">
   <figure>
     <picture>
-      <source srcset="/images/wallet.jpg" type="image/jpeg">
-      <source srcset="/images/wallet.png" type="image/png">
-      <img src="images/apple-watch.jpg" alt="Apple wallet with cards" class="detail-image" loading="lazy">
+      <source srcset="/items/apple-watch/" type="image/jpeg">
+      <source srcset="/items/apple-watch/" type="image/png">
+      <img src="/items/apple-watch/" alt="Apple wallet with cards" class="detail-image" loading="lazy">
     </picture>
   </figure>
 
