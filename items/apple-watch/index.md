@@ -15,8 +15,8 @@ permalink: /items/apple-watch/
 	</figure>
 
 	<h1>Apple Watch</h1>
-	<p class="lead">A connected smartwatch that still functions as a quick glanceable timepiece and health tracker.</p>
+	<p class="lead">Watch made by Apple that I wear on my wrist everyday.</p>
 
 	<h2>Why I can't leave home without it</h2>
-	<p>It gives me notifications at a glance, tracks workouts and sleep, and can even act as a phone in emergencies. It combines convenience with utility in a compact package.</p>
+	<p>My apple watch connects to my phone and allows me to tell the time as well as discretely read my notifications as well as record some health statistics.</p>
 </article>

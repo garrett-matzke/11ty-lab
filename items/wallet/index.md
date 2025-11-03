@@ -15,8 +15,8 @@ permalink: /items/wallet/
   </figure>
 
   <h1>Slim Wallet</h1>
-  <p class="lead">A minimal wallet that holds the essentials — a few cards and some cash.</p>
+  <p class="lead">A magnetic wallet made by Apple.</p>
 
   <h2>Why I can't leave home without it</h2>
-  <p>It keeps everything compact and secure. I can travel light, avoid bulging pockets, and still have what I need for daily errands.</p>
+  <p>It holds my three essential cards and magnetically attaches to the back of my phone.</p>
 </article>
