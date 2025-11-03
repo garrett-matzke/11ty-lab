@@ -9,9 +9,8 @@ permalink: /items/wallet/
     <picture>
       <source srcset="/images/wallet.jpg" type="image/jpeg">
       <source srcset="/images/wallet.png" type="image/png">
-      <img src="/images/wallet.svg" alt="Apple wallet with cards" class="detail-image" loading="lazy">
+      <img src="images/apple-watch.jpg" alt="Apple wallet with cards" class="detail-image" loading="lazy">
     </picture>
-    <figcaption>Placeholder image — replace with your original photo (jpg/png preferred).</figcaption>
   </figure>
 
   <h1>Apple Wallet</h1>
